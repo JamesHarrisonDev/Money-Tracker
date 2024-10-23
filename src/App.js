@@ -14,6 +14,38 @@ function App() {
         </div>
         <button type="submit">Add new transaction</button>
       </form>
+      <div className="transactions">
+        <div className="transaction">
+          <div className="left">
+            <div className="name">New Samsung TV</div>
+            <div className="description">it was time for new tv</div>
+          </div>
+          <div className="right">
+            <div className="price">£500</div>
+            <div className="datetime">14/08/2024 15:28</div>
+          </div>
+        </div>
+        <div className="transaction">
+          <div className="left">
+            <div className="name">New Samsung TV</div>
+            <div className="description">it was time for new tv</div>
+          </div>
+          <div className="right">
+            <div className="price">£500</div>
+            <div className="datetime">14/08/2024 15:28</div>
+          </div>
+        </div>
+        <div className="transaction">
+          <div className="left">
+            <div className="name">New Samsung TV</div>
+            <div className="description">it was time for new tv</div>
+          </div>
+          <div className="right">
+            <div className="price">£500</div>
+            <div className="datetime">14/08/2024 15:28</div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
